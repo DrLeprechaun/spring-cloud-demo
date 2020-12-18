@@ -19,5 +19,29 @@
 *.tar.gz
 *.rar
 
+# Apple #
+.DS_Store
+
+# Intellij #
+.idea
+*.iml
+*.log
+
+eureka-server/target
+eureka-server/.mvn
+eureka-server/mvnw
+
+greeting-service/target
+greeting-service/.mvn
+greeting-service/mvnw
+
+info-service/target
+info-service/.mvn
+info-service/mvnw
+
+web-client-service/target
+web-client-service/.mvn
+web-client-service/mvnw
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
